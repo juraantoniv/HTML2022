@@ -1,3 +1,20 @@
 p{
     font-size: 20px;
+    background: blue;
+    color: chocolate;
+
+
 }
+h2{
+     background: brown;
+     color: cornflowerblue;
+ }
+ ul{
+     background: brown;
+     color: cornflowerblue;
+
+ }
+ h1{
+     background: darkblue;
+     color: darkolivegreen;
+ }
