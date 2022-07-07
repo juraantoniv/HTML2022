@@ -1,0 +1,24 @@
+.absolute{
+    background: silver;
+    height: 800px;
+    width: 400px;
+    display: flex;
+    align-items: flex-end;
+
+}
+
+.one{
+    background: cornflowerblue;
+    height: 200px;
+    width: 100px;
+}
+.two{
+    background: cornflowerblue;
+    height: 200px;
+    width: 100px;
+}
+.three{
+     background: cornflowerblue;
+    height: 200px;
+    width: 100px;
+ }
