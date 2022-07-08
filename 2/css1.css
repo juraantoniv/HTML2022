@@ -1,24 +1,49 @@
 .absolute{
-    background: silver;
-    height: 800px;
-    width: 400px;
-    display: flex;
-    align-items: flex-end;
+
+    height: auto;
+    width: 500px;
+    display:flex;
+    box-sizing: border-box;
+    padding: 15px;
+    flex-direction:column;
+    justify-content: space-between;
+    border: 1px solid red;
 
 }
 
 .one{
     background: cornflowerblue;
     height: 200px;
-    width: 100px;
+    width: 100%;
+
+
 }
 .two{
-    background: cornflowerblue;
-    height: 200px;
-    width: 100px;
+
+    height: 150px;
+    width: 500px;
+    display:flex;
+    margin-bottom: 15px;
+    box-sizing: border-box;
+
+
+
 }
 .three{
      background: cornflowerblue;
-    height: 200px;
-    width: 100px;
+     height:330px;
+     width: 100%;
+     margin-top: 15px;
+
+
+
  }
+.second{
+    background: cornflowerblue;
+    height: 100%;
+  width: 150px;
+    margin: 15px;
+
+
+
+}
