@@ -27,8 +27,8 @@
 .two{
 
     display: flex;
-    justify-content:space-between;
     height: 200px;
+    column-gap: 20px;
 
 
 
@@ -54,12 +54,12 @@
     text-align: center;
     align-items: center;
     justify-content: center;
+
 }
 .second2{
     box-sizing: border-box;
     height:160px;
     width: 200px;
-    margin-left: 20px;
     background:cornflowerblue;
     display: flex;
     text-align: center;
@@ -70,7 +70,6 @@
     box-sizing: border-box;
     height:160px;
     width: 200px;
-    margin-left: 20px;
     background:cornflowerblue;
     display: flex;
     text-align: center;

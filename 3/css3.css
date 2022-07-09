@@ -1,0 +1,39 @@
+.absolute1{
+
+    height: 250px;
+    width: 600px;
+    display: flex;
+    padding: 20px;
+    box-sizing: border-box;
+    justify-content:center;
+    align-items: center;
+    border: 1px solid black;
+}
+.info{
+
+    height: 200px;
+    width: 200px;
+    margin: 15px;
+    border: 1px solid black;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 5px;
+
+
+
+}
+.bot{
+    border:1px solid red;
+    width: 100px;
+    height: 20px;
+
+}
+.round{
+    border:1px solid black ;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    margin: -25px;
+
+}
