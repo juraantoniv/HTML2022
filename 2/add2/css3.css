@@ -1,0 +1,49 @@
+.big{
+    background:darkgreen;
+    height:600px;
+    width: 1000px;
+    padding: 50px 50px 100px 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    row-gap: 35px;
+    text-align: center;
+
+
+}
+.one1{
+    width: 900px;
+    height: 400px;
+    display: flex;
+    justify-content: space-around;
+    padding: 2px;
+    column-gap: 50px;
+    box-sizing: border-box;
+
+
+}
+
+
+
+.big1{
+    background:indigo;
+   height:400px;
+   width: 250px;
+    padding: 45px 20px 20px 20px;
+    font-size: 30px;
+    justify-content: center;
+    text-align: center;
+    align-items: flex-end;
+
+}
+
+img{
+
+    border-radius: 50%;
+    width: 80px;
+    height: 80px;
+}
+.text{
+
+    font-size: 30px;
+}
