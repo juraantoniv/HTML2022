@@ -1,7 +1,7 @@
 .absolute1{
 
-    height: 250px;
-    width: 600px;
+    height: 300px;
+  width: 650px;
     display: flex;
     padding: 20px;
     box-sizing: border-box;
@@ -15,7 +15,7 @@
     width: 200px;
     margin: 15px;
     border: 1px solid black;
-    justify-content: center;
+    position: relative;
     align-items: center;
     text-align: center;
     padding: 5px;
@@ -34,6 +34,11 @@
     height: 50px;
     width: 50px;
     border-radius: 50%;
-    margin: -25px;
+
+   position:absolute;
+    top: -25px;
+    justify-content: center;
+    align-items: center;
+
 
 }
