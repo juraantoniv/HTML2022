@@ -36,7 +36,8 @@
     position:absolute;
     top: -25px;
     right: 60px;
-    justify-content: center;
+   display: flex;
+    justify-content:center;
     align-items: center;
     background:white;
 
