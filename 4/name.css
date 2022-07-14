@@ -1,0 +1,66 @@
+
+.int{
+    width: 500px;
+    height:500px;
+    background: white;
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+.a{
+    height: 150px;
+    background: silver;
+    margin-bottom: 10px;
+}
+.int1{
+    height: 350px;
+    background:white ;
+    display: flex;
+}
+.b{
+    width:350px;
+    background: silver;
+    margin-right: 10px;
+
+}
+
+.c{
+    width:150px;
+    background: silver;
+
+}
+
+ @media screen and (max-width: 350px) {
+    .int{
+        display: flex;
+        flex-direction: column;
+        padding: 10px;
+        background: white;
+    }
+     .a{
+         height: 100px;
+         width: 350px;
+
+     }
+     .int1{
+         height: 400px;
+         width: 350px;
+         flex-direction: column;
+         background: white;
+     }
+     .b{
+         height:300px;
+         width: 350px;
+         margin-bottom: 10px;
+         background: silver;
+     }
+     .c{
+         height: 100px;
+         width: 350px;
+         background: silver;
+
+     }
+
+}
