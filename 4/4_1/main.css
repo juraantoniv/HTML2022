@@ -1,0 +1,57 @@
+.main{
+    width: 500px;
+    height: 500px;
+    border: 1px solid black;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+}
+.aa1{
+    height: 150px;
+    width: 100%;
+    background: silver;
+    margin-bottom: 10px;
+
+}
+.bb1{
+    height:350px;
+    display: flex;
+}
+
+.en1{
+    width: 350px;
+    margin-right: 10px;
+    display: flex;
+    flex-direction: column;
+}
+.en2{
+    width: 150px;
+    background: silver;
+
+}
+.ent{
+    height: 50%;
+    background: silver;
+    margin-bottom: 10px;
+}
+.ent2{
+    height: 50%;
+    display: flex;
+}
+.sml1{
+    width:150px;
+    background: silver;
+
+}
+.sml3{
+    width:150px;
+    background: silver;
+    margin-left: 10px;
+
+}
+.sml2{
+    width:150px;
+    background: silver;
+    margin-left: 10px;
+
+}
