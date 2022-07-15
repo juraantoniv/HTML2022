@@ -13,6 +13,10 @@
     height: 150px;
     background: silver;
     margin-bottom: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
 }
 .int1{
     height: 350px;
@@ -22,44 +26,52 @@
 .b{
     width:350px;
     background: silver;
+    display: flex;
     margin-right: 10px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
 
 }
 
 .c{
     width:150px;
     background: silver;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
 
 }
 
  @media screen and (max-width: 350px) {
     .int{
         flex-direction: column;
-        padding: 10px;
-
+        padding: 20px;
+        border-radius: 10px;
+        width: 350px;
     }
      .a{
          height: 100px;
-         width: 350px;
-
+         width: 100%;
+         border-radius: 10px;
+         margin-bottom: 20px;
      }
      .int1{
          height: 400px;
-         width: 350px;
          flex-direction: column;
-
+         width: 100%;
      }
      .b{
          height:300px;
-         width: 350px;
-         margin-bottom: 10px;
-
+         width: 100%;
+         margin-bottom: 20px;
+         border-radius: 10px;
      }
      .c{
          height: 100px;
-         width: 350px;
-
-
+         width: 100%;
+         border-radius: 10px;
      }
 
 }
