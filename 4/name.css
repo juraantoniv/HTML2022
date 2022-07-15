@@ -1,4 +1,5 @@
 
+
 .int{
     width: 500px;
     height:500px;
@@ -49,28 +50,30 @@
         flex-direction: column;
         padding: 20px;
         border-radius: 10px;
-        width: 350px;
+        width:30vh;
+
+
     }
      .a{
+         width:30vh;
          height: 100px;
-         width: 100%;
          border-radius: 10px;
          margin-bottom: 20px;
      }
-     .int1{
+     .int1 {
          height: 400px;
          flex-direction: column;
-         width: 100%;
+         width:30vh;
      }
      .b{
          height:300px;
-         width: 100%;
+         width:30vh;
          margin-bottom: 20px;
          border-radius: 10px;
      }
      .c{
          height: 100px;
-         width: 100%;
+         width:30vh;
          border-radius: 10px;
      }
 
