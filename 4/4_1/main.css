@@ -1,3 +1,5 @@
+
+
 .main{
     width: 500px;
     height: 500px;
@@ -11,6 +13,9 @@
     width: 100%;
     background: silver;
     margin-bottom: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 
 }
 .bb1{
@@ -27,31 +32,98 @@
 .en2{
     width: 150px;
     background: silver;
-
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 .ent{
     height: 50%;
     background: silver;
     margin-bottom: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 .ent2{
     height: 50%;
     display: flex;
+
 }
 .sml1{
     width:150px;
     background: silver;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 
 }
 .sml3{
     width:150px;
     background: silver;
     margin-left: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 
 }
 .sml2{
     width:150px;
     background: silver;
     margin-left: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 
 }
+
+@media screen and (max-width: 350px){
+
+
+    .bb1{
+        width: 32vh;
+        flex-direction: column;
+        height: 400px;
+        border-radius: 10px;
+    }
+    .aa1{
+        width: 32vh;
+        height: 100px;
+        border-radius: 10px;
+    }
+    .en1{
+        width: 32vh;
+        height: 300px;
+        border-radius: 10px;
+    }
+    .ent2{
+        width: 32vh;
+        height: 100px;
+        border-radius: 10px;
+        justify-content: space-between;
+        align-items: center;
+
+    }
+    .en2{
+
+        height: 100px;
+        width: 32vh;
+        border-radius: 10px;
+    }
+    .ent{
+        border-radius: 10px;
+        height: 300px;
+        margin-bottom: 0;
+        width: 32vh;
+    }
+    .sml1,.sml2,.sml3{
+        height: 50px;
+        width: 50px;
+        border-radius: 10px;
+
+    }
+    .main{
+        border-radius: 10px;
+        width: 32vh;
+    }
+}
+
